@@ -1,0 +1,87 @@
+*{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   margin: 0px;
+  
+}
+html {
+  position: relative;
+  min-height: 100%;
+ 
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+ /* margin-top: 150x;*/
+ background-color: bisque;
+}
+
+#header{
+  /*  height: 70px;*/
+    background-color: blue; 
+    padding: 2% 0 2%;
+}
+
+#nav{
+ /*  height: 80px;-*/
+   background-color: red;   
+   font-size: 1.3em;
+}
+
+#aside{
+    width: 0%;
+    float: right;
+ /*   background-color: green;*/
+    min-height: 400px;  
+}
+
+#section{
+    width:100%;
+    background-color: yellow;
+ /*   min-height: 190px;*/
+    
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+form{
+    font-size: 2em;
+}
+form input{
+    font-size: 1.2em;
+    border-radius: 15px;   
+}
+
+form #firstname-field{
+    background-color: #cccccc;
+    width: 15%;
+}
+form #enter-button{    
+    background: #cccccc;
+    
+}
+
+#article{
+    background-color: violet;
+    width: 100%;
+    padding: 2%;
+    text-align: left;
+}
+#article center h2{
+    margin-bottom: 2%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #666;
+  font-size: 1.2em;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #000099;
+ padding-top: 1%;
+}
